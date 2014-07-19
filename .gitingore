@@ -1,0 +1,4 @@
+.svn/
+.gitingore
+.DS_Store
+target/

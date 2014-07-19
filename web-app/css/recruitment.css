@@ -1,0 +1,389 @@
+/*
+CSS to be used with HR
+Application requisition 
+and candidate pages
+
+SSB - 11/23/2011
+*/
+
+/*--------------- Tables ---------------*/
+table.historyTable {
+    margin-bottom: 20px;
+}
+table.recruitment,
+table.recruitmentList,
+table.diff {
+    width: 1007px;
+}
+table.recruitment th, 
+table.recruitmentList th,
+table.candidate th,
+table.historyTable th,
+table.diff th {
+    font-family: Cambria;
+    font-size: 14px;
+    color: #496278;
+} 
+table.recruitment th a:link, table.recruitment th a:visited, table.recruitment th a:hover,
+table.recruitmentList th a:link, table.recruitmentList th a:visited, table.recruitmentList th a:hover,
+table.candidate th a:link, table.candidate th a:visited, table.candidate th a:hover,
+table.historyTable th a:link, table.historyTable th a:visited, table.historyTable th a:hover,
+table.diff th a:link, table.diff th a:visited, table.diff th a:hover {
+    color: #496278;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;  
+}
+th.author {
+	display: none;
+	visibility: hidden;
+}
+table.recruitmentList th.half a {
+	width: 50%;
+}
+td.replace {
+	width: 50%;
+	background-color: #99FFCC;
+}
+table.recruitment td, 
+table.recruitmentList td,
+table.candidate td,
+table.historyTable td {
+    font-family: Cambria;
+    font-size: 12px;
+}
+table.recruitment td a, 
+table.recruitmentList td a,
+table.candidate td a,
+table.historyTable td a {
+    color: #ff6200;
+    text-decoration: none;
+}
+table.recruitment td.footer, 
+table.recruitmentList td.footer,
+table.candidate td.footer,
+table.historyTable td.footer {
+	height: 21px;
+    background-image: url(../images/reports/report_header_bg.png);
+    background-repeat: repeat-x;
+    border-bottom: 2px solid #D7E2EC;
+    border-left: 1px solid #D7E2EC;
+    border-right: 1px solid #D7E2EC;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+table.candidate td.top {
+    vertical-align: top;
+}
+table.recruitment th.fourCol, table.recruitment td.fourCol,
+table.candidate th.fourCol, table.candidate td.fourCol, 
+table.historyTable th.fourCol, table.historyTable td.fourCol {
+    width: 25%;
+}
+table.recruitment th.fiveCol, table.recruitment td.fiveCol,
+table.candidate th.fiveCol, table.candidate td.fiveCol  {
+    width: 20%;
+}
+th
+{
+    font: 11px verdana, arial, helvetica, sans-serif;
+    padding: 5px 6px;
+    color: #496278;
+    line-height: 12px;
+}
+table.recruitment tr:hover,
+table.recruitmentList tr:hover {
+	background-color: #B2D1FF;
+}
+.even {
+    background-color: #f1f0f1;
+}
+a.help {
+	display: block;
+    float: right;
+    width: 18px;
+    height: 18px;
+}
+
+/*--------------- Buttons ---------------*/
+div.paginateButtons {
+    width: 1005px;
+}
+div.buttons {
+    width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+div.changeBtns {
+	width: 1005px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.appBtns {
+    width: 989px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #D7E2EC;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+div.appBtns a.button {
+	display:block;
+	padding-top: 2px;
+	margin-top: 2px;
+}
+input.note {
+    width: 280px;
+}
+
+
+#hoverMenu {
+    display:none;
+    position:absolute;
+    top: 140px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    opacity: 0.9;
+}
+#actionthumbnails {
+     list-style: none;
+}
+#actionthumbnails a img {
+    border-style: solid;
+    border-width: 1px;
+}
+#actionthumbnails a img {
+    height: 90px;
+    width: 120px;
+}
+#actionthumbnails a img.hover {
+    border-color: grey;
+    border-width: 8px;
+    border-style: outset;
+    height: 180px;
+    width: 240px;
+}
+
+option.added {
+    background: url(../images/skin/database_add.png) center left no-repeat;
+    padding-left: 20px;
+    background-color: #9fc;
+}
+option.removed {
+    background: url(../images/skin/database_delete.png) center left no-repeat;
+    padding-left: 20px;
+    background-color: #f03;
+}
+.programmernote {
+    color: red;
+    font-style: italic;
+    font-size: x-small;
+    display:none;
+}
+
+ul.yesNo {
+    list-style: none
+}
+
+/*--------------- CANDIDATE ---------------*/
+.candFilter{
+    width: 350px;
+}
+#twoColLeft {
+    float: left;
+    width: 48%;
+}
+#twoColRight {
+    float: right;
+    width: 48%;
+}
+#candidateFilter  {
+    width: 970px;
+}
+#candidateFilter h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#candidateFilter table {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#candidateMaybes {
+    display: inline;
+    width: 49%;
+    float: left;
+    clear: both;
+}
+#candidatesTopReject {
+    display: inline;
+    width: 49%;
+    float: right;
+    border-left-style: solid;
+}
+#candidateTop {
+    height: 250px;
+}
+#candidateRejected {
+    border-top-style: solid;
+    height: 250px;
+}
+.candidateHover {
+    background: #b2d1ff;
+}
+#topCandidateTable {
+    width: 350px !important;
+}
+#topCandidateTable .rank {
+    width: 60px;
+}
+#generalQuestions {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+fieldset,
+fieldset.rtl,
+fieldset.empapp {
+    width: 991px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D7E2EC;
+}
+fieldset.rtl legend {
+	font-wieght: bold;
+	font-size: 1.2em;
+	color: #004e8f;
+}
+fieldset.empapp dl {
+    display: inline;
+}
+fieldset.empapp dl dt {
+    text-align: left;
+    white-space: normal;
+}
+fieldset.empapp dl.append {
+    margin-top: -16px;
+    clear: none;
+    float: none;
+    display: inline;
+}
+fieldset.empapp dl dd {
+    display: block;
+    clear: left;
+}
+fieldset.empapp legend {
+    padding-right: 5px;
+    margin: 0;
+}
+fieldset.empapp legend a img{
+    margin: 0;
+    padding: 0 5px;
+    float: left;
+    border: none;
+    width: 24px;
+    height: 24px;
+}
+fieldset.empapp legend span {
+    line-height: 24px;
+    font-size: large;
+}
+table.candidate, table.historyTable {
+    width:990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.candidate {   
+    border: none;
+}
+table.historyTable {
+    border: 1px solid #e3e3e3;
+}
+a.remove {
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    overflow: visible;
+    color: #49628C;
+    text-decoration: none;
+    padding: 2px 0 0 22px;
+    background: url(../images/skin/delete.png) center left no-repeat;
+}
+#candidateTable a.newCandi {
+	color: #0076C0;
+	text-decoration: none;
+}
+table.historyTable textarea {
+    width: 400px;
+}
+table.historyTable td.emphasis {
+	padding: 5px;
+	background-color: #F3F3F3;
+	font-weight: bold;
+	color: #49628C;
+	vertical-align: middle;
+}
+
+/*--------------- Incident ---------------*/
+.rtl legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #004e8f;
+}
+div.rtl {
+	width: 1007px;
+	float: left;
+}
+.rtl dl {
+    overflow: hidden;
+    float: left;
+}
+.rtl dl {
+	width: 45%;
+}
+.rtl dl dt {
+    display: inline block;
+    float: left;
+    text-align: left;
+    padding: 4px 3px 4px 3px;
+}
+.rtl dl dt {
+    width: 43%;	
+}
+.rtl dl dd {
+    display: inline block;
+    float: right;
+}
+.rtl dl dd {
+    width: 54%;	
+}
+.reqList dl dd {
+    width: 59%;
+}
+select.YesNoList {
+	width: 700px;
+}
+select.changes {
+	width: 485px;
+}
+textarea.jobDescList { 
+	width: 696px;
+    padding: 2px 2px 2px 0;
+    margin: 2px 0;
+}
+	

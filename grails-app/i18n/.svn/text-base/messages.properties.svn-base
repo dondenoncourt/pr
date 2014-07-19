@@ -1,0 +1,95 @@
+candidate.name.blank=Please enter your name
+candidate.phoneNo.blank=Please enter a contact phone number
+candidate.email.blank=Please enter an email address
+candidate.addr.nullable=Please enter an address 
+
+address.city.blank=Please enter a city 
+address.state.blank=Please enter a state
+address.zip.blank=Please enter a zip code
+address.zip.matches.invalid=Please enter a valid zip code
+address.line1.blank=Please enter a first line for all addresses
+
+contact.name.validator.error=Please enter a name
+
+driverAccident.date.nullable=Please enter dates for all driver accidents
+
+enroll.edit.form.header.label=2012 Benefits Enrollment Form
+
+education.study.validator.error=Please enter a field of study for education
+education.degree.validator.error=Please enter a diploma or degree for education
+education.years.validator.error=Please select a number of years for education
+education.at.least.highschool.GED=Please fill in education entry for High School or GED
+
+covered.relationship.not.inList=Please select a relationship
+covered.relationship.blank=Please select a relationship
+covered.gender.nullable=Please enter a gender
+covered.name.blank=Please enter a name
+covered.name.nullable=Please enter a name
+covered.ssn.blank=Please enter a social security number
+covered.ssn.nullable=Please enter a social security number
+covered.ssn.matches.invalid=Please enter all nine digits of the social
+covered.birth.nullable=Please enter a birth date
+
+otherCoverage.name.blank=Please enter a name
+otherCoverage.name.nullable=Please enter a name
+otherCoverage.carrier.blank=Please enter an insurance carrier name
+otherCoverage.carrier.nullable=Please enter an insurance carrier name
+otherCoverage.policyNo.blank=Please enter a policy number
+otherCoverage.policyNo.nullable=Please enter a policy number
+
+medicare.name.blank=Please enter a name
+medicare.name.nullable=Please enter a name
+medicare.policyNo.blank=Please enter a policy number
+medicare.policyNo.nullable=Please enter a policy number
+medicare.type.blank=Please select a relationship type
+medicare.type.nullable=Please select a relationship type
+
+behavior.result.1=Significantly lower than average
+behavior.result.2=Lower than average 
+behavior.result.3=Average 
+behavior.result.4=Higher than average 
+behavior.result.5=Significantly higher than average
+
+jobDescription.adInternal.label=Internal Ad
+jobDescription.adExternal.label=External Ad
+jobDescription.job.label=Description of job
+jobDescription.yesNo.label=Yes/No Questions
+jobDescription.techNeeds.label=Technical Needs
+jobDescription.tests.label=Tests
+
+# note candidatecontroller properties are in hr base (payrolldb)
+employment.whyNoContact.validator.error=Please describe why we cannot contact a prior or current employer
+employment.ending.nullable=Please enter ending salary for all employment history
+employment.toMMYY.invalid.daterange=Please enter a valid date range
+employment.toMMYY.invalid.date=Please enter a valid TO month/year date (MMYY format) for employment
+employment.toMMYY.invalid.year=Please enter dates with 2-digit years
+employment.fromMMYY.invalid.date=Please enter a valid FROM month/year date (MMYY format) for employment
+employment.fromMMYY.invalid.year=Please enter dates with 2-digit years
+employment.addr.nullable=Please enter complete addresses for all employment history
+employment.business.nullable=Please describe the type of business for all employment history
+employment.business.blank=Please describe the type of business for all employment history
+employment.duties.nullable=Please describe your duties for all employment history
+employment.duties.blank=Please describe your duties for all employment history
+employment.position.nullable=Please enter a position for all employment history
+employment.position.blank=Please enter a position for all employment history
+employment.whyLeft.nullable=Please your reason for leaving for all employment history
+employment.whyLeft.blank=Please your reason for leaving for all employment history
+employment.company.blank=Please enter company names for all employment history
+employment.date.blank=Please enter ending dates for all employment history
+
+address.line1.blank=Please enter a first line for all addresses
+
+
+paf.partTimeHours.invalid=Please enter an estimate of the number of part-time hours
+paf.to.partTimeHours.invalid=Please enter an estimate of the number of TO part-time hours
+paf.from.partTimeHours.invalid=Please enter an estimate of the number of FROM part-time hours
+paf.add.partTimeHours.invalid=Please enter an estimate of the number of ADD part-time hours
+paf.insideOutside.not.inList=Please enter an I or an O
+
+driverExperience.toMMYY.invalid.daterange=Please enter a valid date range for driver experience
+driverExperience.toMMYY.invalid.date=Please enter a valid TO month/year date (MMYY format) for driver experience
+driverExperience.fromMMYY.invalid.date=Please enter a valid FROM month/year date (MMYY format) for driver experience
+driverExperience.kind.invalid=Invalid driver experience type
+driverExperience.klass.invalid=Invalid driver experience class
+driverExperience.miles.min.notmet=Driver experience mileage must be 100 or more
+driverViolation.date.nullable=Please enter dates for all driver convictions and forfeitures 

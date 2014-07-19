@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" name="daffron.fms.hr.UserTests" tests="1" time="0.043" timestamp="2012-04-16T14:26:54">
+  <properties />
+  <testcase classname="daffron.fms.hr.UserTests" name="testEncryptPassword" time="0.04" />
+  <system-out><![CDATA[--Output from testEncryptPassword--
+secret
+secret
+ZG9uOnNlY3JldA==
+]]></system-out>
+  <system-err><![CDATA[--Output from testEncryptPassword--
+]]></system-err>
+</testsuite>

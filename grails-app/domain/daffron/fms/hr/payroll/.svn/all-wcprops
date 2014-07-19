@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iXp/!svn/ver/22852/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll
+END
+EmployerAuxContributions.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployerAuxContributions.groovy
+END
+EmployeePayrollMaster.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployeePayrollMaster.groovy
+END
+PayCalcHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/PayCalcHistory.groovy
+END
+PrCodes.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/23654/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/PrCodes.groovy
+END
+EmployeeInsuranceInfo.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployeeInsuranceInfo.groovy
+END
+EmployeePayrollDeductions.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployeePayrollDeductions.groovy
+END
+Earning2.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/Earning2.groovy
+END
+EarningsWork.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EarningsWork.groovy
+END
+GeneralConstants.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iXp/!svn/ver/23654/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/GeneralConstants.groovy
+END
+SalaryHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/SalaryHistory.groovy
+END
+PayrollConstants.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/PayrollConstants.groovy
+END
+EmployerContributions.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployerContributions.groovy
+END
+EmployeePayrollAuxDeductions.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployeePayrollAuxDeductions.groovy
+END
+Earning.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/Earning.groovy
+END
+EarningsHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EarningsHistory.groovy
+END
+EmployeeDependents.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/EmployeeDependents.groovy
+END
+OtherEarningsHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iXp/!svn/ver/22378/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/payroll/OtherEarningsHistory.groovy
+END

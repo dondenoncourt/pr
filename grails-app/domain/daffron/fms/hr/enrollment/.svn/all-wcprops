@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iXp/!svn/ver/22854/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment
+END
+Cafeteria.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Cafeteria.groovy
+END
+VoluntaryInsurance.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/VoluntaryInsurance.groovy
+END
+OtherCoverage.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/OtherCoverage.groovy
+END
+Covered.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Covered.groovy
+END
+Enroll.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iXp/!svn/ver/22854/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Enroll.groovy
+END
+Beneficiary.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Beneficiary.groovy
+END
+BCBS.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/BCBS.groovy
+END
+Contact.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Contact.groovy
+END
+GHP.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/GHP.groovy
+END
+Medicare.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iXp/!svn/ver/21752/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/enrollment/Medicare.groovy
+END

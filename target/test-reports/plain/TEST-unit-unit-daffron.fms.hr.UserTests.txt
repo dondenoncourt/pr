@@ -1,0 +1,13 @@
+Testsuite: daffron.fms.hr.UserTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.043 sec
+------------- Standard Output ---------------
+--Output from testEncryptPassword--
+secret
+secret
+ZG9uOnNlY3JldA==
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testEncryptPassword--
+------------- ---------------- ---------------
+
+Testcase: testEncryptPassword took 0.04 sec

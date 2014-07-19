@@ -1,0 +1,267 @@
+/*-------------------------
+CSS to be used with any 
+page of the HR Application
+that contains a button
+
+SSB - 11/17/2011
+-------------------------*/
+
+/* ACTION BUTTONS */
+div.buttons, td.buttons, div.changeBtns, div.nav {
+	clear: left;
+	padding-bottom: 5px;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+div.buttons, div.nav {
+	
+    margin-top: 15px;
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #D7E2EC;
+}
+div.nav {
+	width: 1007px;
+	margin-bottom: 20px;
+	height: 20px;
+}
+div.nav ul {
+	padding: 3px 0; 
+	margin: 0;
+}
+div.nav ul li {
+	list-item: none;
+	display: inline;
+	padding: 0 3px;
+}
+div.nav ul li a {	
+    padding: 2px 0 0 22px;
+    color: #496278;
+    font-weight: bold;
+}
+div.changeBtns {
+	background-color: #D7E2EC;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+div.linkBtns, div.nav {
+	clear: both;
+	float: left;
+	padding: 3px 0 2px 0;
+}
+.buttons input, .buttons  a {
+    border: 0;
+    color: #004e8f;
+    cursor: pointer;    
+    font-size: .9em;
+    margin-left: 3px;
+    overflow: visible;
+    padding: 0 6px;
+}
+.buttons input.login {
+	background: transparent url(../images/LoginBtn_bg.png) no-repeat;
+	padding-right: 22px;
+    width: 70px;
+    height: 20px;
+    float: right;
+    margin: 2px 3px;
+    text-align: right;
+}
+.nextBtn
+{
+	background: #ffffff url(../images/NextBtn_bg.png) top left no-repeat;
+	width: 150px;
+	height: 20px;
+	color: #004e8f;
+	text-align: left;
+	padding: 0 0 4px 12px;
+	margin-top: 5px;
+	border: 0;
+}
+.nextBtn a
+{
+	color: #004e8f;
+	line-height: 20px;
+	padding: 3px 0 0 3px;
+	text-decoration: none;
+}
+div.add {
+	margin-top: 5px;
+}
+a.button,
+input.button {
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    overflow: visible;
+    color: #49628C;
+}
+a.button {
+	text-decoration: none;
+    padding: 2px 0 0 22px;
+}
+input.button {	
+    padding: 2px 0 0 18px;
+}
+
+/*--------------- PAGINATION ---------------*/
+div.paginateButtons, div.pagination {
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 0;	    
+    border-left: 1px solid #D7E2EC;
+    border-right: 1px solid #D7E2EC;
+    border-bottom: 1px solid #D7E2EC;
+    background: #ffffff url(../images/reports/pagination_bg.png) repeat-x;
+    max-height: 35px;
+}
+div.pagination {
+	width: 1005px;
+} 
+div.paginateButtons a.step, 
+div.paginateButtons a.nextLink, 
+div.paginateButtons a.prevLink,
+div.pagination a.step,
+div.pagination a.nextLink,
+div.pagination a.prevLink {
+    background: #fff;
+    border: 1px solid #B2D1FF;
+	color: #004e8f;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+div.paginateButtons a.step:hover, 
+div.paginateButtons a.nextLink:hover, 
+div.paginateButtons a.prevLink:hover,
+div.pagination a.step:hover,
+div.pagination a.nextLink:hover,
+div.pagination a.prevLink:hover {
+    border: 1px solid #004e8f;
+}
+div.paginateButtons span,
+div.pagination span {
+    padding: 2px 5px;
+}
+span.currentStep {
+	background: transparent;
+	color: #004e8f;
+	font-weight: bold;
+}
+
+/* MENU */
+.menuButton {
+    font-size: 10px;
+    padding: 0 5px;
+}
+.menuButton a {
+    color: #333;
+    padding: 4px 6px;
+}
+.menuButton a.home {
+    background: url(../images/skin/house.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.list {
+    background: url(../images/skin/database_table.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.create {
+    background: url(../images/skin/database_add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.edit {
+    background: url(../images/skin/database_edit.png)  center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+/*--------------- Decorated Links  ---------------*/
+a.pdf {
+    background: URL(../images/reports/pdf_icon.png) center left no-repeat;
+    padding-left: 5px;
+}
+a.xls {
+	background: url(../images/reports/excel_icon.png) center left no-repeat;
+	padding-left: 5px;
+}
+a.add, input.add, a.create {
+	background: url(../images/skin/add.png) center left no-repeat;
+}
+a.delete, input.delete {
+	background: url(../images/skin/delete.png) center left no-repeat;
+}
+a.edit, input.edit {
+	background: url(../images/skin/edit.png) center left no-repeat;
+}
+a.update, input.update {
+    background: url(../images/skin/update.png) center left no-repeat;
+}
+a.save, input.save {
+    background: url(../images/skin/save.png) center left no-repeat;
+}
+a.back, input.back {
+    background: url(../images/skin/back.png) center left no-repeat;
+}
+a.next, input.next {
+    background: url(../images/skin/next.png) center left no-repeat;
+}
+a.approve, input.approve {
+	background: url(../images/skin/approve.png) center left no-repeat;
+}
+a.search, input.search {
+    background: url(../images/skin/search.png) center left no-repeat;
+}
+a.list, input.list {
+    background: url(../images/skin/list.png) center left no-repeat;
+}
+a.post, input.post {
+    background: url(../images/skin/post.png) center left no-repeat;
+}
+a.home, input.home {
+    background: url(../images/skin/home.png) center left no-repeat;
+}
+a.cal, input.cal {
+    background: url(../images/skin/calendar.png) center left no-repeat;
+}
+a.help, input.help {
+	background: url(../images/skin/help.png) center right no-repeat;	
+}
+a.copy, input.copy {
+    background: url(../images/skin/copy.png) center left no-repeat;    
+}
+a.skip {
+	display: none;
+	visibility: hidden;
+}
+
+/*--------------- Icons ---------------*/
+div.icons {
+	margin-bottom: 5px;
+	width: 1007px;
+	height: 25px;
+}
+div.icons a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 0 0 0 5px;
+	float: right;
+}
+a.pdf {
+    background: url(../images/reports/pdf_icon.png) no-repeat;
+}
+a.xls {
+	background: url(../images/reports/excel_icon.png) no-repeat;;
+}
+a.print {
+    background: url(../images/reports/print_icon.png) no-repeat;
+}
+a.word {
+	background: url(../images/reports/word_icon.png) no-repeat;;
+}

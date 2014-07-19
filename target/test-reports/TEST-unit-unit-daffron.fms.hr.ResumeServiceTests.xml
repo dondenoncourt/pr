@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" name="daffron.fms.hr.ResumeServiceTests" tests="1" time="0.248" timestamp="2012-04-16T14:26:54">
+  <properties />
+  <testcase classname="daffron.fms.hr.ResumeServiceTests" name="testGetResume" time="0.229" />
+  <system-out><![CDATA[--Output from testGetResume--
+]]></system-out>
+  <system-err><![CDATA[--Output from testGetResume--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+Testsuite: daffron.fms.hr.recruiting.RequisitionTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.999 sec
+------------- Standard Output ---------------
+--Output from testInterviewTeamEmails--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testInterviewTeamEmails--
+------------- ---------------- ---------------
+
+Testcase: testInterviewTeamEmails took 2.949 sec

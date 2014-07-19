@@ -1,0 +1,82 @@
+#mainContent {
+	width: 710px;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 0;
+}
+div.logo {
+	width: 710px;
+	height: 101px;
+}
+h1 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-align: center;
+}
+#mainContent table,
+#mainContent table.colorBG {
+	width: 710px;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	font-family: inherit;
+	font-size: inherit;
+}
+#mainContent table.colorBG {
+	background-color: #d9d9d9;
+}
+#mainContent table td,
+#mainContent table.colorBG td {
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	vertical-align: top;
+	padding: 2px 5px;
+}
+#mainContent table span.h2,
+#mainContent table.colorBG span.h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#mainContent table td.bg,
+#mainContent table.colorBG td.bg {
+	background-color: #d9d9d9;
+	padding: 0 3px;
+}
+#mainContent table td.break {
+	height: 2px;
+	background-color: #000000;
+}
+#mainContent table.colorBG td.noBorder {
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid #000000;
+    text-align: center;
+}
+#mainContent table.colorBG td.noRight {
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+#mainContent table.sign {
+	border: none;
+	width: 710px;
+    border-collapse: collapse;
+    font-family: inherit;
+    font-size: inherit;
+}
+#mainContent table.sign td.sig {
+	width: 65%;
+	border: none;
+}
+#mainContent table.sign td.spacer {
+	border: none;
+	width: 5%;
+}
+#mainContent table.sign td.date {
+	width: 30%;
+	border: none;
+}

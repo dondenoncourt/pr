@@ -1,0 +1,180 @@
+/*--------------- Header ---------------*/
+#header {
+	width: 1024px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	background: url(../images/common/HeaderBG.jpg) repeat-x;
+	color: #ffffff;
+}
+#headerTop {
+	width: 1024px;
+	margin: 0;
+	height: 77px;
+}
+#logo {
+	float: left;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 195px;
+	height: 65px;
+}
+#userInfo {
+	width: 1024px;
+	height: 25px;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+}
+#userInfo table {
+	float: right;
+	border: none;
+	border-collapse: collapse;
+	width: 450px;
+	height: 25px;
+    color: #ffffff;
+}
+#userInfo table td {
+	padding: 0;
+	vertical-align: middle;
+}
+#userInfo table td.left {
+	background: transparent url(../images/common/userBG_left.png) no-repeat;
+	width: 10px;
+	height: 25px;
+}
+#userInfo table td.content {
+    background: transparent url(../images/common/userBG.png) repeat-x;
+    width: 410px;
+    height: 25px;
+}
+#userInfo table td.right {
+    background: transparent url(../images/common/userBG_right.png) no-repeat;
+    width: 20px;
+    height: 25px;
+}
+#userInfo table a, 
+#userInfo table a:link,
+#userInfo table a:active, 
+#userInfo table a:visited {
+	color: #daab27;
+	text-decoration: none;
+}
+#userInfo table a:hover,
+#userInfo table a:link:hover,
+#userInfo table a:active:hover, 
+#userInfo table a:visited:hover {
+	color: #2baea9;
+	text-decoration: underline;
+}
+#slogan {
+	float: left;
+	position: absolute;
+	top: 31px;
+	left: 207px;	
+    width: 200px;
+    /*height: 35px;*/
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#search {
+	width: 210px;
+	height: 30px;
+	float: right;
+	margin: 23px 10px 0 0;
+	background: transparent url(../images/common/search_bg.png) no-repeat left top;
+}
+#searchBox, .searchBox {
+	width: 150px; 
+	height: 14px;
+	border: 2px solid #dedede; 
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 4px 0 0 10px;
+}
+#BtnSearch {
+	width: 24px;
+	height: 22px;
+	background: transparent url(../images/common/search_btn.png) no-repeat left top;
+	border: none;
+	margin: 4px 10px 0 0;
+	float: right;
+}
+#iXpLogo {
+	float: right;
+	width: 123px;
+	height: 65px;
+	margin: 12px 6px 0 0;
+}
+.clear {
+	clear: both;
+}
+
+/*--------------- NavBar ---------------*/
+#navBar {
+	/*background: url(../images/common/menuBar_bg.png) repeat-x;*/
+	width: 1024px;
+	height: 22px;
+	top: 78px;
+	left: 0px;
+	/*background-color: white;*/
+	font: 12px Arial; 
+}
+#dropmenudiv {
+	position:absolute;
+	margin-top: 2px;
+	border-left: 1px solid #CBCACB;
+	border-right: 1px solid #CBCACB;
+	border-bottom: 1px solid #CBCACB;
+	color: #000000;
+	font: 12px Arial;
+	line-height:18px;
+	z-index:100;
+}
+#dropmenudiv a {
+	display: block;
+	padding: 3px 8px 4px 8px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: normal;
+}  
+#dropmenudiv a:hover {
+	background-color: #ffffff;
+	color:#066cc1;
+	font-weight: normal;
+}
+.ddmx .item1 {
+	display: block;    
+	white-space: nowrap; 
+	position: relative; 
+	text-decoration: none;
+	background: transparent url(../images/common/menu_spacer.png) right bottom no-repeat;  color: #333333;
+    padding: 3px 15px 2px 12px;
+	font: 12px Arial; 
+}
+.ddmx .item1:hover {  
+	color: #ff6200; 
+}
+.ddmx .item1-active, .ddmx .item1-active:hover {
+	display: block;  
+	white-space: nowrap; 
+	position: relative; 
+	text-decoration: none;
+    padding: 3px 10px 3px 10px;
+    color: #ff6600;
+}
+* html .ddmx td {
+	position: relative;
+}
+#menu1 td {
+	padding: 0;;
+}

@@ -1,0 +1,205 @@
+/*-------------------------
+CSS to be used with HR
+Enrollment pages
+
+SSB - 11/17/2011
+-------------------------*/
+
+div.enrollContent {
+	width: 1007px;
+	border: none;
+}
+div #directDeposit {
+	display: none;
+}
+div .importantInfo {
+	padding-top: 10px;
+	font-size: 18px;
+}
+div #volInsHeader {
+	/*display: inline; */
+}
+div  #volInsHeader .left {
+	display: inline;
+	float: left;
+}
+div  #volInsHeader .right {
+	display: inline;
+	clear: both;
+	padding: 10px;
+}
+div  #volInsHeader .right p {
+	padding: 10px;
+	font-size: larger;
+}
+div.buttons {
+	width: 1006px;
+}
+
+#importantInfo {
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	width: 800px;
+	border-style: dashed;
+	border-width: thin;
+	padding: 10px;
+	font-size: larger;
+	background: #EAFEEA; /* PaleGreen */
+	
+}
+#returnMessage {
+	position: absolute;
+	top: 120px;
+	left: 900px;
+	width: 100px;
+	border-style: dashed;
+	border-width: thin;
+	padding: 10px;
+	font-size: larger;
+}
+
+
+/*--------------- Tables ---------------*/
+table.enrollment {
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.enrollment th, #enrollList th {
+	padding: 0 6px 0 6px;
+	font-weight: bold;
+}
+table.enrollment td, #enrollList td {
+    padding: 0 2px 0 3px;
+}
+table.enrollment th.fourCol, table.enrollment td.fourCol {
+	width: 25%;
+}
+table.enrollment th.fiveCol, table.enrollment td.fiveCol {
+    width: 20%;
+}
+th 
+{
+    font: 11px verdana, arial, helvetica, sans-serif;
+    padding: 5px 6px;
+    color: #496278;
+    line-height: 12px;
+}
+#enrollList {
+	width: 1007px;
+	margin-top: 10px;
+}
+
+/*--------------- Lists ---------------*/
+dl {
+	float: left;
+	padding: 1px;
+	white-space: nowrap;
+	width: 100%;
+}
+dl dt {	
+	font-weight: bold;
+	margin: 0 5px 0px 0px;
+	white-space: nowrap;
+	width: 20%;
+}
+dl dd {
+	margin-right: 10px;
+	padding: 1px;
+	text-align: left;
+	white-space: nowrap;
+	width: 79%;
+	line-height: 24px;
+}
+dl dt.right {
+    text-align: right;
+}
+dl.full dt {
+	width: 60%;
+}
+dl.full dd {
+	width: 39%;
+}
+dl.cafeteria {
+	width: 49%;
+	border-style: solid;
+	border-width: thin;
+}
+dl.left {
+	clear: left;
+	float: left;
+}
+dl.right {
+	float: right;
+}
+dl.full {
+	width: 100%;
+	clear: both;
+}
+dl.cafeteria dt {
+	float: left;
+	width: 69%;
+}
+dl.cafeteria dd {
+	width: 39%;
+}
+
+ul.covered {
+	list-style: none;
+}
+
+/*--------------- Fieldsets ---------------*/
+fieldset {
+	float: left;
+	width: 992px;
+}
+
+/*--------------- Tabs -----------------*/
+ul#toc {
+    height: 2em;
+    margin: 20px 0 0 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-style: none none solid none;
+}
+ul#toc li {
+    background: #fff url(../images/tabs.png);
+    float: left;
+    margin: 0 1px 0 0;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+ul#toc a {
+    background: url(../images/tabs.png) 100% 0;
+    color: #093c66;
+    display: block;
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+ul#toc li.current {
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+
+ul#toc li:hover {
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+
+ul#toc li:hover a {
+    background-position: 100% -60px;
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+ul#toc li.current a {
+    background-position: 100% -60px;
+    color: #fff;
+    font-weight: bold;
+}

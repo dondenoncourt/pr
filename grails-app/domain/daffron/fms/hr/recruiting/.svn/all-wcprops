@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iXp/!svn/ver/23370/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting
+END
+Requisition.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Requisition.groovy
+END
+DriverLicense.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/DriverLicense.groovy
+END
+DriverAccident.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/DriverAccident.groovy
+END
+CompensationTeam.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iXp/!svn/ver/23684/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/CompensationTeam.groovy
+END
+Behavior.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Behavior.groovy
+END
+DriverExperience.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/DriverExperience.groovy
+END
+Note.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/22854/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Note.groovy
+END
+Test.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Test.groovy
+END
+BehaviorResult.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/BehaviorResult.groovy
+END
+ApproveRequisition.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/ApproveRequisition.groovy
+END
+Interviewer.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Interviewer.groovy
+END
+RequisitionStatus.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iXp/!svn/ver/22156/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/RequisitionStatus.groovy
+END
+Approve.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Approve.groovy
+END
+TechNeed.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/TechNeed.groovy
+END
+Employment.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iXp/!svn/ver/22608/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Employment.groovy
+END
+YesNo.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/YesNo.groovy
+END
+Education.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iXp/!svn/ver/22873/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Education.groovy
+END
+RequisitionCandidate.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/iXp/!svn/ver/22156/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/RequisitionCandidate.groovy
+END
+Candidate.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iXp/!svn/ver/22086/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/Candidate.groovy
+END
+JobClassDescription.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/iXp/!svn/ver/22615/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/JobClassDescription.groovy
+END
+TestScore.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/TestScore.groovy
+END
+JobClassDescriptionExt.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/JobClassDescriptionExt.groovy
+END
+JobDescription.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iXp/!svn/ver/22861/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/JobDescription.groovy
+END
+YesNoAns.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/YesNoAns.groovy
+END
+DriverViolation.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iXp/!svn/ver/21753/Daffron%20-%20HR/payrolldb/grails-app/domain/daffron/fms/hr/recruiting/DriverViolation.groovy
+END

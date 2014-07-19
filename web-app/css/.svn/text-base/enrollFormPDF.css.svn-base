@@ -1,0 +1,67 @@
+.small {font-size: xx-small;}
+.line{border-bottom: 1px solid #4d80ab}
+
+/**
+ * Specific Elements
+ */
+
+#page-header {
+   display: inline;
+}
+#page-footer{
+   text-align: right;
+}
+
+/**
+ * Flying Saucer custom stuff
+ *
+ * see https://xhtmlrenderer.dev.java.net/servlets/ReadMsg?listName=dev&msgNo=3707
+ */
+ 
+@page {
+  size: letter; /*letter landscape*/
+  background: white;
+  
+  @top-center {
+    content: element(current);
+  }
+  
+  @bottom-right {
+    content: element(footer);
+  }
+}
+
+.page-start { -fs-page-sequence: start; page-break-before: always;}
+fieldset {-fs-fieldset-paginate: paginate;page-break-inside: avoid;}
+/* forces a page break */
+.break {page-break-after:always}
+
+span.page:before { content: counter(page); }
+span.pagecount:before { content: counter(pages); }
+
+.body {
+	width: 702px;
+}
+input, input:disabled {
+	border: 0;
+	color: #000000;
+	width: 200px;
+	height: 20px;
+}
+select, select:disabled {
+	border: 0;
+	color: #000000;	
+	background: White;
+	background-image: none;
+}
+fieldset {	
+	width: 692px;
+	padding: 0 5px;
+}
+fieldset legend {
+	font-size: 1.35em;
+	margin: 2px 0;
+}
+table {
+	max-width: 690px;
+}

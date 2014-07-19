@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" name="daffron.fms.hr.payroll.EmployeePayrollMasterTests" tests="3" time="0.669" timestamp="2012-04-16T14:27:08">
+  <properties />
+  <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testF4Tables" time="0.402" />
+  <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testGetDepartmentDescription" time="0.207" />
+  <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testFindBySupervisor" time="0.058" />
+  <system-out><![CDATA[--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+]]></system-out>
+  <system-err><![CDATA[--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+]]></system-err>
+</testsuite>

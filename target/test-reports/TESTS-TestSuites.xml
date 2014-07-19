@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" id="0" name="EmployeePayrollMasterTests" package="daffron.fms.hr.payroll" tests="3" time="0.669" timestamp="2012-04-16T14:27:08">
+      <properties />
+
+      <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testF4Tables" time="0.402" />
+
+      <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testGetDepartmentDescription" time="0.207" />
+
+      <testcase classname="daffron.fms.hr.payroll.EmployeePayrollMasterTests" name="testFindBySupervisor" time="0.058" />
+
+      <system-out><![CDATA[--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" id="1" name="ResumeServiceTests" package="daffron.fms.hr" tests="1" time="0.248" timestamp="2012-04-16T14:26:54">
+      <properties />
+
+      <testcase classname="daffron.fms.hr.ResumeServiceTests" name="testGetResume" time="0.229" />
+
+      <system-out><![CDATA[--Output from testGetResume--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testGetResume--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" id="2" name="UserTests" package="daffron.fms.hr" tests="1" time="0.043" timestamp="2012-04-16T14:26:54">
+      <properties />
+
+      <testcase classname="daffron.fms.hr.UserTests" name="testEncryptPassword" time="0.04" />
+
+      <system-out><![CDATA[--Output from testEncryptPassword--
+secret
+secret
+ZG9uOnNlY3JldA==
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testEncryptPassword--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" id="3" name="RequisitionTests" package="daffron.fms.hr.recruiting" tests="1" time="2.999" timestamp="2012-04-16T14:26:51">
+      <properties />
+
+      <testcase classname="daffron.fms.hr.recruiting.RequisitionTests" name="testInterviewTeamEmails" time="2.949" />
+
+      <system-out><![CDATA[--Output from testInterviewTeamEmails--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testInterviewTeamEmails--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

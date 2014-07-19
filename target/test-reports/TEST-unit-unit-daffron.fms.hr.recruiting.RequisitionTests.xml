@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Don-Denoncourts-MacBook-Pro.local" name="daffron.fms.hr.recruiting.RequisitionTests" tests="1" time="2.999" timestamp="2012-04-16T14:26:51">
+  <properties />
+  <testcase classname="daffron.fms.hr.recruiting.RequisitionTests" name="testInterviewTeamEmails" time="2.949" />
+  <system-out><![CDATA[--Output from testInterviewTeamEmails--
+]]></system-out>
+  <system-err><![CDATA[--Output from testInterviewTeamEmails--
+]]></system-err>
+</testsuite>

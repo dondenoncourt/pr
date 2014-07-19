@@ -1,0 +1,106 @@
+<plugin name='payrolldb' version='0.1' grailsVersion='2.0.0 &gt; *'>
+  <author>Your name</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/payrolldb</documentation>
+  <type>PayrolldbGrailsPlugin</type>
+  <resources>
+    <resource>AppResources</resource>
+    <resource>daffron.fms.hr.SecurityController</resource>
+    <resource>daffron.fms.hr.SingleSignonController</resource>
+    <resource>daffron.fms.hr.recruiting.CandidateController</resource>
+    <resource>daffron.fms.AuthorizedOperations</resource>
+    <resource>daffron.fms.AuthorizedUserOperations</resource>
+    <resource>daffron.fms.gl.Department</resource>
+    <resource>daffron.fms.gl.SubDepartment</resource>
+    <resource>daffron.fms.hr.DifferentialRates</resource>
+    <resource>daffron.fms.hr.HrCodes</resource>
+    <resource>daffron.fms.hr.PersonnelAction</resource>
+    <resource>daffron.fms.hr.User</resource>
+    <resource>daffron.fms.hr.enrollment.BCBS</resource>
+    <resource>daffron.fms.hr.enrollment.Beneficiary</resource>
+    <resource>daffron.fms.hr.enrollment.Cafeteria</resource>
+    <resource>daffron.fms.hr.enrollment.Contact</resource>
+    <resource>daffron.fms.hr.enrollment.Covered</resource>
+    <resource>daffron.fms.hr.enrollment.Enroll</resource>
+    <resource>daffron.fms.hr.enrollment.GHP</resource>
+    <resource>daffron.fms.hr.enrollment.Medicare</resource>
+    <resource>daffron.fms.hr.enrollment.OtherCoverage</resource>
+    <resource>daffron.fms.hr.enrollment.VoluntaryInsurance</resource>
+    <resource>daffron.fms.hr.payroll.Earning</resource>
+    <resource>daffron.fms.hr.payroll.Earning2</resource>
+    <resource>daffron.fms.hr.payroll.EarningsHistory</resource>
+    <resource>daffron.fms.hr.payroll.EarningsWork</resource>
+    <resource>daffron.fms.hr.payroll.EmployeeDependents</resource>
+    <resource>daffron.fms.hr.payroll.EmployeeInsuranceInfo</resource>
+    <resource>daffron.fms.hr.payroll.EmployeePayrollAuxDeductions</resource>
+    <resource>daffron.fms.hr.payroll.EmployeePayrollDeductions</resource>
+    <resource>daffron.fms.hr.payroll.EmployeePayrollMaster</resource>
+    <resource>daffron.fms.hr.payroll.EmployerAuxContributions</resource>
+    <resource>daffron.fms.hr.payroll.EmployerContributions</resource>
+    <resource>daffron.fms.hr.payroll.GeneralConstants</resource>
+    <resource>daffron.fms.hr.payroll.OtherEarningsHistory</resource>
+    <resource>daffron.fms.hr.payroll.PayCalcHistory</resource>
+    <resource>daffron.fms.hr.payroll.PayrollConstants</resource>
+    <resource>daffron.fms.hr.payroll.PrCodes</resource>
+    <resource>daffron.fms.hr.payroll.SalaryHistory</resource>
+    <resource>daffron.fms.hr.recruiting.Approve</resource>
+    <resource>daffron.fms.hr.recruiting.ApproveRequisition</resource>
+    <resource>daffron.fms.hr.recruiting.Behavior</resource>
+    <resource>daffron.fms.hr.recruiting.BehaviorResult</resource>
+    <resource>daffron.fms.hr.recruiting.Candidate</resource>
+    <resource>daffron.fms.hr.recruiting.DriverAccident</resource>
+    <resource>daffron.fms.hr.recruiting.DriverExperience</resource>
+    <resource>daffron.fms.hr.recruiting.DriverLicense</resource>
+    <resource>daffron.fms.hr.recruiting.DriverViolation</resource>
+    <resource>daffron.fms.hr.recruiting.Education</resource>
+    <resource>daffron.fms.hr.recruiting.Employment</resource>
+    <resource>daffron.fms.hr.recruiting.Interviewer</resource>
+    <resource>daffron.fms.hr.recruiting.JobClassDescription</resource>
+    <resource>daffron.fms.hr.recruiting.JobClassDescriptionExt</resource>
+    <resource>daffron.fms.hr.recruiting.JobDescription</resource>
+    <resource>daffron.fms.hr.recruiting.Note</resource>
+    <resource>daffron.fms.hr.recruiting.Requisition</resource>
+    <resource>daffron.fms.hr.recruiting.RequisitionCandidate</resource>
+    <resource>daffron.fms.hr.recruiting.RequisitionStatus</resource>
+    <resource>daffron.fms.hr.recruiting.TechNeed</resource>
+    <resource>daffron.fms.hr.recruiting.Test</resource>
+    <resource>daffron.fms.hr.recruiting.TestScore</resource>
+    <resource>daffron.fms.hr.recruiting.YesNo</resource>
+    <resource>daffron.fms.hr.recruiting.YesNoAns</resource>
+    <resource>daffron.fms.hr.safety.Doctor</resource>
+    <resource>daffron.fms.hr.safety.Hospital</resource>
+    <resource>daffron.fms.hr.safety.Incident</resource>
+    <resource>daffron.fms.hr.safety.InjuryDetail</resource>
+    <resource>LoginService</resource>
+    <resource>daffron.fms.hr.ResumeService</resource>
+    <resource>DaffronTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='http://download.java.net/maven/2/' url='http://download.java.net/maven/2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='mysql' name='mysql-connector-java' version='5.1.13' />
+    </runtime>
+  </dependencies>
+  <plugins>
+    <runtime>
+      <plugin group='org.grails.plugins' name='jquery-ui' version='1.8.15' />
+      <plugin group='org.grails.plugins' name='jquery' version='1.7.1' />
+      <plugin group='org.grails.plugins' name='feeds' version='1.5' />
+      <plugin group='org.grails.plugins' name='mail' version='1.0' />
+      <plugin group='org.grails.plugins' name='hibernate' version='2.0.0' />
+      <plugin group='org.grails.plugins' name='tomcat' version='2.0.0' />
+      <plugin group='org.grails.plugins' name='resources' version='1.1.5' />
+    </runtime>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

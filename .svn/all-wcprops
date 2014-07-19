@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 18
+/svn/iXp/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/iXp/!svn/ver/23370/Daffron%20-%20HR/payrolldb
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/iXp/!svn/ver/21399/Daffron%20-%20HR/payrolldb/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/iXp/!svn/ver/21399/Daffron%20-%20HR/payrolldb/.project
+END
+PayrolldbGrailsPlugin.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/iXp/!svn/ver/19935/Daffron%20-%20HR/payrolldb/PayrolldbGrailsPlugin.groovy
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/iXp/!svn/ver/23547/Daffron%20-%20HR/payrolldb/plugin.xml
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/iXp/!svn/ver/22873/Daffron%20-%20HR/payrolldb/application.properties
+END

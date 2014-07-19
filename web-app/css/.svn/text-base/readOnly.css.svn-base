@@ -1,0 +1,13 @@
+input:disabled {
+	border: none;
+	color: #545454;
+}
+select, select:disabled {
+	border: none;
+	color: #545454;	
+	background: White;
+	background-image: none;
+}
+fieldset {
+	margin-bottom: 5px;
+}

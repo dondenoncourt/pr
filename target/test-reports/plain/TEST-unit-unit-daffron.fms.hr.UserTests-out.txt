@@ -1,0 +1,4 @@
+--Output from testEncryptPassword--
+secret
+secret
+ZG9uOnNlY3JldA==

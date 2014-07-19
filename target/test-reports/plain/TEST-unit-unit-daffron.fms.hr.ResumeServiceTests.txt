@@ -1,0 +1,10 @@
+Testsuite: daffron.fms.hr.ResumeServiceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.248 sec
+------------- Standard Output ---------------
+--Output from testGetResume--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testGetResume--
+------------- ---------------- ---------------
+
+Testcase: testGetResume took 0.229 sec

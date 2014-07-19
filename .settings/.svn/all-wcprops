@@ -1,0 +1,21 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 18
+/svn/iXp/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/iXp/!svn/ver/21400/Daffron%20-%20HR/payrolldb/.settings
+END
+com.springsource.sts.grails.core.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iXp/!svn/ver/21400/Daffron%20-%20HR/payrolldb/.settings/com.springsource.sts.grails.core.prefs
+END
+org.codehaus.groovy.eclipse.preferences.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iXp/!svn/ver/19934/Daffron%20-%20HR/payrolldb/.settings/org.codehaus.groovy.eclipse.preferences.prefs
+END

@@ -1,0 +1,72 @@
+/*-------------------------
+CSS to be used with any 
+page of the HR Application
+that has a general or error
+message that could be 
+displayed
+
+SSB - 11/17/2011
+-------------------------*/
+div.msg
+{
+    width: 970px;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px;
+}
+div.general {
+    background: #f3f8fc url(../images/skin/info.png) 8px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba;  
+}
+div.errors {
+    background: #fff3f3;
+    border: 1px solid red;
+    color: #cc0000;
+}
+div.errors ul {
+    list-style: none;
+    padding: 0;
+}
+div.errors li {
+	background: url(../images/skin/alert.png) 8px 0% no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+td.errors select {
+    border: 1px solid red;
+}
+td.errors input {
+    border: 1px solid red;
+}
+td.errors textarea {
+    border: 1px solid red;
+}
+dd.errors select {
+    border: 1px solid red;
+}
+dd.errors input {
+    border: 1px solid red;
+}
+dd.errors textarea {
+    border: 1px solid red;
+}
+span.errors input {
+    border: 1px solid red;
+}
+
+/*--------------- DIALOG ---------------*/
+.dialog table {
+    padding: 5px 0;
+}
+.prop {
+    padding: 5px;
+}
+.prop .name {
+    text-align: left;
+    width: 15%;
+    white-space: nowrap;
+}
+.prop .value {
+    text-align: right;
+    width: 85%;
+}

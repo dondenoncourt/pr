@@ -1,0 +1,16 @@
+Testsuite: daffron.fms.hr.payroll.EmployeePayrollMasterTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.669 sec
+------------- Standard Output ---------------
+--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testF4Tables--
+--Output from testGetDepartmentDescription--
+--Output from testFindBySupervisor--
+------------- ---------------- ---------------
+
+Testcase: testF4Tables took 0.402 sec
+Testcase: testGetDepartmentDescription took 0.207 sec
+Testcase: testFindBySupervisor took 0.058 sec
